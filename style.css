@@ -1,0 +1,44 @@
+body
+{
+    font-family: 'Adobe Garamond Pro', 'Helvetica', 'Arial', sans-serif;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.lang
+{
+    display: inline-block;
+    width: 96px;
+}
+
+.lang-stats
+{
+    margin: 0;
+    padding: 0;
+}
+
+.lang-stats > li 
+{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.bar, .bar-val
+{
+    display: inline-block;
+}
+
+.bar
+{
+    background: #EEF;
+    border: 1px solid #44F;
+    width: 256px;
+}
+
+.bar-val
+{
+    background: #77F;
+    color: #FFF;
+    padding: 3px;
+    text-align: center;
+}

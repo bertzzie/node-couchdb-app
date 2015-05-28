@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title= PageTitle
+        style
+            include style.css
+
+    body
+        h1= PageTitle
+
+        ul.lang-stats
+            each stat in Stats
+                li
+                    span.lang= stat.key
+                    div.bar
+                        span.bar-val(style="width:#{stat.value}%")= stat.value
